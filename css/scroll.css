@@ -1,0 +1,6 @@
+.scroll {
+    position: fixed;
+    transition-duration: 3s;
+    top: 0;
+    width: 100%;
+}
