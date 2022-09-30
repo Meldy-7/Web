@@ -1,0 +1,83 @@
+.section {
+    width: 100%;
+    float: left;
+}
+
+.container {
+    width: 1285px;
+    margin: 0 auto;
+    float: none;
+}
+
+header {
+    height: 70px;
+    border-bottom: 1px solid rgb(190, 187, 187);
+    position: relative;
+    z-index: 1000;
+}
+
+header>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact>ul {
+    display: flex;
+}
+
+.contact>ul>li {
+    margin-left: 20px;
+    position: relative;
+    line-height: 70px;
+}
+
+.contact span {
+    color: #181b1f;
+}
+
+.contact button {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border: none;
+}
+
+.submenu {
+    border: 1px solid rgb(104, 99, 99);
+    background-color: whitesmoke;
+    position: absolute;
+    width: 200px;
+    top: 100%;
+    border-radius: 10PX;
+    display: none;
+}
+
+.submenu li {
+    padding: 0 20px;
+    position: relative;
+    border-bottom: 0.5px solid rgb(80, 79, 79);
+    line-height: 50px;
+}
+
+.submenu li:hover {
+    background-color: #181b1f;
+}
+
+.submenu li:hover>a {
+    color: white;
+}
+
+.submenu2 {
+    border: 1px solid rgb(104, 99, 99);
+    background-color: whitesmoke;
+    position: absolute;
+    right: 100%;
+    top: -1px;
+    width: 200px;
+    border-radius: 10px;
+    display: none;
+}
+
+.submenu li:hover .submenu2 {
+    display: block;
+}
