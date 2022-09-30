@@ -21,6 +21,10 @@ header>.container {
     justify-content: space-between;
 }
 
+.contact a {
+    display: block;
+}
+
 .contact>ul {
     display: flex;
 }
